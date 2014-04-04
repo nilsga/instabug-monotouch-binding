@@ -2,7 +2,7 @@ using System;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 
-namespace Instabug {
+namespace MonoTouch.Instabug {
 
 	public delegate void PreSendingCallback();
 

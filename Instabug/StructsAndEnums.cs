@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Instabug
+namespace MonoTouch.Instabug
 {
 	public enum InstabugFeedbackEvent {
 		Shake,
