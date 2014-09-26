@@ -9,8 +9,8 @@ namespace MonoTouch.Instabug {
 	[BaseType (typeof (NSObject))]
 	public partial interface Instabug {
 
-		[Static, Export ("KickOffWithToken:CaptureSource:FeedbackEvent:IsTrackingLocation:")]
-		void KickOffWithToken (string token, InstabugCaptureSource captureSource, InstabugFeedbackEvent feedbackEvent, bool isTrackingLocation);
+		[Static, Export ("startWithToken:captureSource:invocationEvent:")]
+		void StartWithToken (string token, InstabugCaptureSource captureSource, InstabugFeedbackEvent feedbackEvent);
 
 		[Static, Export ("ShowFeedbackForm")]
 		void ShowFeedbackForm ();
