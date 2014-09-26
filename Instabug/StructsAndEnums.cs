@@ -3,10 +3,11 @@
 namespace MonoTouch.Instabug
 {
 	public enum InstabugFeedbackEvent {
+		None,
 		Shake,
 		Screenshot,
-		ThreeFingersSwipe,
-		None,
+		TwoFingersSwipeLeft,
+		RightEdgePan,
 		FloatingButton
 	}
 
